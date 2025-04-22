@@ -1,0 +1,24 @@
+.header {
+    .top_nav {
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+
+    .logo_container {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 40px; // Kích thước logo
+            height: auto; // Tự động điều chỉnh chiều cao
+            margin-right: 10px; // Khoảng cách giữa logo và chữ
+        }
+
+        span {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333; // Màu chữ
+        }
+    }
+}
